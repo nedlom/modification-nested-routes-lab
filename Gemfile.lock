@@ -81,6 +81,8 @@ GEM
     nio4r (2.5.7)
     nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-linux)
+      racc (~> 1.4)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -187,6 +189,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -204,4 +207,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   2.2.19
+   2.2.21
